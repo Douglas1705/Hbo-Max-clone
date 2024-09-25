@@ -6,5 +6,7 @@
 <br>
 ## Website image
 <br>
-<img src="https://ibb.co/ZdyJ1TJ" alt="cape image Hbo">
+
+<img src="https://i.ibb.co/PxBYzCY/Hbo-Max-clone.png" alt="cape image Hbo">
+
 <br>
