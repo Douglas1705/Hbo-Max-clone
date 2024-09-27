@@ -1,4 +1,4 @@
-import UniversalButton from "../../common/UniversalButton";
+import UniversalButton from "../common/UniversalButton";
 function Header() {
   return (
     <header className="xs:bg-mobileImgHeader sm:bg-tabletImgHeader lg:bg-desktopImgHeader bg-no-repeat bg-cover bg-center pt-36">
