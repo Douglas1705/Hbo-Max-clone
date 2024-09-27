@@ -1,4 +1,4 @@
-import UniversalButton from "../../common/UniversalButton";
+import UniversalButton from "../common/UniversalButton";
 
 function NavBar() {
   return (
