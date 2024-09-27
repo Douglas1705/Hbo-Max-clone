@@ -8,7 +8,6 @@ import Header from './components/navBar/header'
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
     <NavBar />
-    <Header />
-   
+    <Header />   
   </StrictMode>,
 )
