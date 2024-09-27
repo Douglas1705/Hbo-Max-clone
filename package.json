@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://github.com/Douglas1705/Hbo-Max-clone.git",
+  "homepage": "https://Douglas1705.github.io/Hbo-Max-clone.git",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
