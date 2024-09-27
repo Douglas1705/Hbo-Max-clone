@@ -15,5 +15,8 @@ uso:
 
 /*Global Styles */
 body{
-    font-family: 'Gilroy-Medium', sans-serif;
+    font-family: 'Gilroy-Medium', sans-serif;    
+}
+h1, h2, h3, p{
+    color: white;
 }

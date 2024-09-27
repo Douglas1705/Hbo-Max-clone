@@ -15,33 +15,24 @@ function UniversalButton({
   name = "",
   onClick,
 }: ButtonProps) {
-  const sizeClasses = {    
-    medium: "px-6 py-2 text-xs",
-    large: "px-8 py-3 text-md",
+  const sizeClasses = {
+    medium: "px-8 py-3 text-xs",
+    large: "px-10 py-4 text-md",
   };
   const backgroundClasses = {
-    black: "bg-gray-650 hover:bg-slate-900",
-    blue: "bg-blue-700 hover:bg-blue-900"
-    
-  }
+    black: "bg-dark hover:bg-gray-700",
+    blue: "bg-customBlue hover:bg-blue-900",
+  };
 
   return (
     <button
       onClick={onClick}
       name={name}
       type={type}
-      className={`
-                ${backgroundClasses[backgroundColor]} 
-                
-                
-                ${sizeClasses[size]} 
-                rounded-lg
-                font-medium
-                text-white 
-            `}
-      style={{ fontFamily: "Gilroy-Bold, sans-serif" }}
+      className={`${backgroundClasses[backgroundColor]} ${sizeClasses[size]} rounded-lg font-gilroy-bold font-bold tracking-wide text-white `}
     >
-      {title}
+      {" "}
+      {title}{" "}
     </button>
   );
 }
