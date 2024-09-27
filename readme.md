@@ -8,7 +8,7 @@ The site was developed by hand, to improve my knowledge in React, taiwing and ty
 
 ## Tecnology
 - React
-- Taiwing
+- Taiwind
 - Typescript
   
 ## Website image
